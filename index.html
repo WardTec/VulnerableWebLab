@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>VulnerableWebLab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Diversity Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <!-- custom css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+</head>
+
+<body>
+    <!-- banner -->
+    <section class="banner d-flex flex-column justify-content-center align-items-center">
+        <h1><a href="index.html" class="logo-wthreepvt">VulnerableWebLab</a></h1>
+        <h2 class="home-banner-w3">Intentionally vulnerable web app for you to practice your penetration testing skills! </h2>
+        <a class="btn btn-primary mt-4 wthree-link-bnr scroll" href="#about" role="button">Start Hacking!</a>
+    </section>
+    <!-- //banner -->
+    <!-- about -->
+    <section class="about-wthree" id="about">
+        <div class="container">
+            <div class="home-features-list text-center">
+                <h3 class="text-center">Vulnerabilities</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Cross-site Scripting (XSS)</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>SQL Injection</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Content Injection</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Unrestricted File Upload</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Local File Inclusion (LFI)</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Command Injection</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Server-side Request Forgery (SSRF)</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Improper Session Management</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 feature-list">
+                        <h5>Reflected File Download (RFD)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //about -->
+    <!-- screens -->
+    <section class="screens-home-grid about-wthree">
+        <div class="container">
+            <h3 class="text-center">Select One Lab To Start Hacking</h3>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-6 mb-lg-0 mb-4">
+                            <div class="screen-grid-wthree-pvt">
+                                <a href="#" target="_blank" data-toggle="modal" data-target="#xssModal"><img src="screens/xss.jpg" class="img-fluid"
+                                        alt="screen-img" /></a>
+                            </div>
+                            <div class="demo-title text-center">
+                                <h4><a href="#" target="_blank" data-toggle="modal" data-target="#xssModal">Cross-site Scripting (XSS)</a></h4>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="xssModal" role="dialog">
+                            <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content" style="text-align: center">
+                                <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="margin-right: 100px">Cross-site Scripting Labs</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <a href="labs/xss/reflected-xss.php"><button type="button" class="btn btn-primary" style="width: 300px">Reflected XSS</button></a>
+                                    <br><br>
+                                    <a href="labs/xss/stored-xss.php"><button type="button" class="btn btn-primary" style="width: 300px">Stored XSS</button></a>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="screen-grid-wthree-pvt">
+                                <a href="#" target="_blank" data-toggle="modal" data-target="#sqliModal"><img src="screens/sqli.jpg" class="img-fluid"
+                                        alt="screen-img" /></a>
+                            </div>
+                            <div class="demo-title text-center">
+                                <h4><a href="#" target="_blank" data-toggle="modal" data-target="#sqliModal">SQL Injection (SQLi)</a></h4>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="sqliModal" role="dialog">
+                                <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content" style="text-align: center">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title" style="margin-right: 130px">SQL Injection Labs</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <a href=""><button type="button" class="btn btn-primary" style="width: 300px">Common SQL Injection</button></a>
+                                        <br><br>
+                                        <a href=""><button type="button" class="btn btn-primary" style="width: 300px">Second Order SQL Injection</button></a>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //screens -->
+    <!-- slide -->
+    <section class="banner slide-banner d-flex flex-column justify-content-center align-items-center">
+        <h5 class="text-center">Can't Solve Any? Don't worry, we got you covered!</h5>
+        <a href="solutions/" class="btn btn-primary mt-4 wthree-link-bnr" target="_blank">Read Solutions</a>
+    </section>
+    <!-- //description -->
+    <!-- footer -->
+    <footer class="cpy-right text-center">
+        <p class="text-white">© 2019 VulnerableWebLab. All rights reserved. Open Source ❤️</p>
+    </footer>
+    <!-- //footer -->
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
